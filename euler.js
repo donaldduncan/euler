@@ -118,7 +118,8 @@ function problem2(log) {
     // By considering the terms in the Fibonacci sequence whose values do not exceed four
     // million, find the sum of the even-valued terms.
 
-    for (var first = 1, second = 1, third = 1, sum = 0;
+    let sum = 0;
+    for (let first = 1, second = 1, third = 1;
         third <= 4000000;
         third = first + second) {
         first = second;
@@ -134,7 +135,8 @@ function problem1() {
     // 3, 5, 6 and 9. The sum of these multiples is 23.
     // Find the sum of all the multiples of 3 or 5 below 1000.
 
-    for (let sum = 0, i = 3; i < 1000; i++) {
+    let sum = 0;
+    for (let i = 3; i < 1000; i++) {
         if (i % 3 == 0 || i % 5 == 0) {
             sum += i;
         }
