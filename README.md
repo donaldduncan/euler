@@ -6,7 +6,7 @@ https://projecteuler.net/
 
 ## The files
 Usual web setup: 
-* `index.html` - to run the show. Simple <div> to list the solutions.
+* `index.html` - to run the show. Simple < div > to list the solutions.
 * `euler.js` - the code. The solutions have their own functions, and there's an array that can be used to select which problems to run. The 'logging' variable sets whether console logging is enabled (this slows down the code massively, of course!). I did this more to explore the relationship between the script and the Dom. I might extend this further to have form inputs on the page to change the contents of the array and switch logging on and off.
 * `styles.css` - to dress the div up!
 
