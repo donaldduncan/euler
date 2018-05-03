@@ -134,13 +134,12 @@ function problem1() {
     // 3, 5, 6 and 9. The sum of these multiples is 23.
     // Find the sum of all the multiples of 3 or 5 below 1000.
 
-    let result = 0;
-    for (i = 0; i < 1000; i++) {
+    for (let sum = 0, i = 3; i < 1000; i++) {
         if (i % 3 == 0 || i % 5 == 0) {
-            result += i;
+            sum += i;
         }
     }
-    return result;
+    return sum;
 }
 
 
