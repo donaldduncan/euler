@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body {
+    font-family: 'Roboto', arial;
+}
+#script {
+    background: gray;
+    color: white;
+    border-radius: 2em;
+    padding: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    line-height: 2em;
+}
+#script span {
+    font-weight: 700;
+}
